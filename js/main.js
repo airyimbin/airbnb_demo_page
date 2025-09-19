@@ -1,4 +1,3 @@
-console.log("Hola mundo!");
 
 
 const inTitle = document.querySelector("#input-title");
@@ -34,7 +33,8 @@ async function loadListings() {
     }
 
     try {
-        const resp = await fetch("../airbnb_sf_listings_500.json");
+        const resp = await fetch("./airbnb_sf_listings_500.json");
+        
         listings = await resp.json();
     } catch (e) {
         listingsSection.insertAdjacentHTML('beforeend', `<div class="text-danger">Failed to load listings.</div>`);
