@@ -5,4 +5,4 @@ This page is using Bootstrap CSS and Javascript to read through the JSON file an
 It will also have a pagination for showing 4 listings at a time and then have the contents replaced when a page is clicked or next/prev is clicked.
 Using JS it scrolls back to the top.
 
-The page will be hosted [here](airyimbin.github.io/airbnb_demo_page).
+The page will be hosted [here](https://airyimbin.github.io/airbnb_demo_page).
